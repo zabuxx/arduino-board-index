@@ -8,7 +8,7 @@ Just add https://raw.githubusercontent.com/zabuxx/arduino-board-index/gh-pages/p
 
 ![image](https://github.com/zabuxx/arduino-board-index/assets/18469570/a24babde-8657-44c0-8ed6-f25d75f80ea0)
 
-and add the "Adafruit nRF52" using board manager
+and add the "Adafruit nRF52" using board manager (uninstall it before if needed).
 
 ![image](https://github.com/zabuxx/arduino-board-index/assets/18469570/d8e22370-1abd-43b4-8339-e2a749126d9b)
 
