@@ -2,7 +2,7 @@
 
 This repo contains a custom `package_adafruit_index.json` file that can be used in Arduino IDE to use an recent compiler toolchain for nRF52.
 
-After succesful installation you'll be able to use the [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) v13.2R1 (Okt 2023) based on [GCC 13.1](https://gcc.gnu.org/), instead of GCC v9 (2019) shipped with the default installation.
+After succesful installation you'll be able to use the [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads) v13.2R1 (Okt 2023) based on [GCC 13.2](https://gcc.gnu.org/), instead of GCC v9 (2019) shipped with the default installation.
 
 ## Usage
 
@@ -17,7 +17,7 @@ and add the "Adafruit nRF52" using board manager (uninstall it before if needed)
 
 ## How
 
-I've downloaded the latest version of the [GNU Arm Embedded Toolchain Downloads](https://developer.arm.com/downloads/-/gnu-rm), recompressed the `.xd` files as `.bz2` and moified `package_adafruit_index.json` to use the latest compiler toolchain.
+I've downloaded the latest version of the [GNU Arm Embedded Toolchain Downloads](https://developer.arm.com/downloads/-/gnu-rm), recompressed the `.xd` files as `.bz2` and modified `package_adafruit_index.json` to use the latest compiler toolchain.
 
 Only tested on **x86_64-pc-linux-gnu**, but should work on for Win/MacOS as well (open an issue if not). The binaries turn out 7~10% smaller in size with the new compiler, benchmarking is on todo list...
 
