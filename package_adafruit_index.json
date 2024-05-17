@@ -9726,6 +9726,67 @@
               "version": "1.2.1"
             }
           ]
+        },
+        {
+          "name": "Adafruit nRF52",
+          "architecture": "nrf52",
+          "version": "1.6.1",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-1.6.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-1.6.1.tar.bz2",
+          "checksum": "SHA-256:f56a669d52f39496adce93839ef822e48c903f8a2c380b0acbfbde29f3e8913b",
+          "size": "20076272",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather nRF52832"
+            },
+            {
+              "name": "Adafruit Feather nRF52840 Express"
+            },
+            {
+              "name": "Adafruit Feather nRF52840 Sense"
+            },
+            {
+              "name": "Adafruit Circuit Playground Bluefruit"
+            },
+            {
+              "name": "Adafruit Metro nRF52840 Express"
+            },
+            {
+              "name": "Adafruit ItsyBitsy nRF52840"
+            },
+            {
+              "name": "Adafruit CLUE"
+            },
+            {
+              "name": "Adafruit LED Glasses Driver nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "adafruit",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ]
         }
       ]
     },
